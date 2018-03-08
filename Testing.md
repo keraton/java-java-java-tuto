@@ -21,9 +21,9 @@ Those tests are mocked and run to validate the application
 
 ## Test Pyramid
 
-        AT
-     IT IT IT
-   UT UT UT UT UT
+         AT
+      IT IT IT
+    UT UT UT UT UT
   
 Not
 
