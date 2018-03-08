@@ -53,18 +53,18 @@ Test the feature not the implementation.
 
 * Testing existing code (see excercice)
 * Junit
-** @Before, @BeforeClass, @Test
-** Testing Exception
+ * @Before, @BeforeClass, @Test
+ * Testing Exception
 * AssertJ
-** Assert Equal
-** Assert Collections, Map
+ * Assert Equal
+ * Assert Collections, Map
 * Mockito
-** Create Mock using Mockito : using annotation, using factory
-** Mockito to throw exception
+ * Create Mock using Mockito : using annotation, using factory
+ * Mockito to throw exception
 * TDD with FizzBuzz
-** RED : Create a failing test
-** GREEN : Fix the test
-** Refactor
+ * RED : Create a failing test
+ * GREEN : Fix the test
+ * Refactor
 
 ## Integration Test
 
