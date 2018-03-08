@@ -51,13 +51,30 @@ Test the feature not the implementation.
 
 ## Excercice 
 
-* Testing existing code (see excercie)
+* Testing existing code (see excercice)
+* Junit
+** @Before, @BeforeClass, @Test
+** Testing Exception
+* AssertJ
+** Assert Equal
+** Assert Collections, Map
+* Mockito
+** Create Mock using Mockito : using annotation, using factory
+** Mockito to throw exception
 * TDD with FizzBuzz
+** RED : Create a failing test
+** GREEN : Fix the test
+** Refactor
 
 ## Integration Test
 
 * Testing that all configuration, and classes are colaborated correctly.
-* Can be limited to the happy path.
+* Can be limited to the happy path and some edge case.
+
+## Excercice
+
+* Test third party call using WireMock
+* Run Wiremock with ClassRule
 
 ## Tools
 
@@ -70,6 +87,10 @@ Test the feature not the implementation.
 * Highest confidence
 * But expensive and hard to maintain.
 * To validate the critical path.
+
+## Excercice
+
+* Test integral application with SpringBoot and MockMvc
 
 ## BDD
 
