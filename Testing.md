@@ -113,7 +113,7 @@ Test the feature not the implementation.
 
 ### Smoke Test
 
-* Test if the application doesn't break in the production environment
+* Test if the application doesn't break in the production environment (doesn't use any mock)
 * Limited to the critical path
 
 
