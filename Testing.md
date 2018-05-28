@@ -68,38 +68,52 @@ Test the feature not the implementation.
 
 ## Integration Test
 
+### Test third party 
+
+* Test the use of third party API (Library, Url, database, BOM, etc.)
+* The objective is to make sure that the evolution of the API doesn't break the code.
+* Can be limited to the happy path and some edge case.
+
+### Test Spring Configuration
+
 * Testing that all configuration, and classes are colaborated correctly.
 * Can be limited to the happy path and some edge case.
 
 ## Excercice
 
-* Test third party call using WireMock
-* Run Wiremock with ClassRule
+* Test third party API call using WireMock and Spring Runner
 
 ## Tools
 
 * Junit
-* Spring Test
+* Spring Runner
 * Wiremock
 
 ## Acceptance test
 
 * Highest confidence
-* But expensive and hard to maintain.
-* To validate the critical path.
+* But expensive and hard to maintain
+* To validate the critical path
+* Use Mock mvc if need to test directly in controller
+* Use Application Server if we want to test also the code before controller such as Filter
 
 ## Excercice
 
-* Test integral application with SpringBoot and MockMvc
+* Test integral application with SpringBoot + MockMvc
+* Test integral application with SpringBoot + Application Server 
 
-## BDD
+## Another type of test
 
-* Behavior Driven Development.
-* Write a test in a language understandable by non dev person.
+### BDD
+
+* Behavior Driven Development
+* Write a test in a language understandable by non DEV person
 * Colaboration between product, Dev and Tester
-* Use Cucumber for JVM.
+* Use Cucumber for JVM
 
+### Smoke Test
 
-
+* Test if the application doesn't break in the production environment
+* Limited to the critical path
 
 
